@@ -1,9 +1,9 @@
-# eslint-config-typescript
+# eslint-config-typescript-react
 
 
 1. Install:
 ```bash
-npm i -D @terrestris/eslint-config-typescript 
+npm i -D @terrestris/eslint-config-typescript-react
 ```
 
 2. Install peerDependenc
@@ -19,6 +19,6 @@ npm i -D typescript@^3
 3. Use config in your `eslintrc.js`
 ```javascript
 module.exports = {
-  extends: '@terrestris/eslint-config-typescript'
+  extends: '@terrestris/eslint-config-typescript-react'
 };
 ```
