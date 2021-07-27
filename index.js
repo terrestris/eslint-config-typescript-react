@@ -10,7 +10,8 @@ module.exports = {
   },
   'plugins': [
     '@typescript-eslint/eslint-plugin',
-    'react-hooks'
+    'react-hooks',
+    'react'
   ],
   'rules': {
     'indent': [
@@ -118,6 +119,14 @@ module.exports = {
     'radix': 'warn',
     'spaced-comment': 'warn',
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'error'
+    'react-hooks/exhaustive-deps': 'error',
+    'react/jsx-tag-spacing': 'error',
+    'react/no-deprecated': 'error',
+    'react/no-unknown-property': 'error'
+  },
+  'settings': {
+    'react': {
+      'version': 'detect'
+    }
   }
 };
