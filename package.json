@@ -1,6 +1,6 @@
 {
   "name": "@terrestris/eslint-config-typescript-react",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A eslint configuration to use with typescript and react",
   "license": "BSD-2-Clause",
   "author": "terrestris GmbH & Co. KG <info@terrestris.de>",
