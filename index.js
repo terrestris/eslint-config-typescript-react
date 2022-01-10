@@ -118,6 +118,7 @@ module.exports = {
     'no-unused-labels': 'warn',
     'radix': 'warn',
     'spaced-comment': 'warn',
+    'react/jsx-key': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'error',
     'react/jsx-tag-spacing': 'error',
