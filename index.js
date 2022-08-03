@@ -64,7 +64,7 @@ module.exports = {
     'camelcase': 'warn',
     'comma-dangle': 'off',
     'curly': 'warn',
-    'default-case': 'warn',
+    'default-case': 'off',
     'dot-notation': 'warn',
     'eol-last': 'warn',
     'eqeqeq': [
