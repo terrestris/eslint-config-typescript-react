@@ -22,21 +22,19 @@
     "url": "https://github.com/terrestris/eslint-config-typescript-react"
   },
   "engines": {
-    "node": ">=14",
-    "npm": ">=7"
+    "node": ">=18",
+    "npm": ">=9"
   },
   "peerDependencies": {
-    "eslint": ">= 8",
-    "@typescript-eslint/eslint-plugin": ">= 5",
+    "eslint": ">= 9",
+    "@stylistic/eslint-plugin": ">= ~2",
+    "@typescript-eslint/eslint-plugin": ">= 8",
+    "@typescript-eslint/parser": "^8.7.0",
     "eslint-plugin-react": ">= 7",
-    "eslint-plugin-react-hooks": ">= 4",
-    "typescript": ">= 3"
-  },
-  "dependencies": {
-    "@typescript-eslint/parser": "^5.9.0",
-    "typescript": "*"
+    "eslint-plugin-react-hooks": "^5.1.0-0",
+    "typescript": ">= 5"
   },
   "devDependencies": {
-    "np": "^7.6.0"
+    "np": "^10.0.7"
   }
 }
