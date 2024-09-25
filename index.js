@@ -11,7 +11,8 @@ module.exports = {
   'plugins': [
     '@typescript-eslint/eslint-plugin',
     'react-hooks',
-    'react'
+    'react',
+    '@stylistic'
   ],
   'rules': {
     'indent': [
@@ -37,7 +38,7 @@ module.exports = {
         }
       }
     ],
-    '@typescript-eslint/member-delimiter-style': [
+    '@stylistic/member-delimiter-style': [
       'warn',
       {
         'multiline': {
@@ -52,15 +53,15 @@ module.exports = {
     ],
     '@typescript-eslint/member-ordering': 'warn',
     '@typescript-eslint/no-explicit-any': 'off',
-    '@typescript-eslint/quotes': [
+    '@stylistic/quotes': [
       'warn',
       'single'
     ],
-    '@typescript-eslint/semi': [
+    '@stylistic/semi': [
       'warn',
       'always'
     ],
-    '@typescript-eslint/type-annotation-spacing': 'warn',
+    '@stylistic/type-annotation-spacing': 'warn',
     'camelcase': 'warn',
     'comma-dangle': 'off',
     'curly': 'warn',
