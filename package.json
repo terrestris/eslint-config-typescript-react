@@ -21,9 +21,8 @@
     "type": "git",
     "url": "https://github.com/terrestris/eslint-config-typescript-react"
   },
-  "engines": {
-    "node": ">=20",
-    "npm": ">=10"
+  "scripts": {
+    "release": "np --no-yarn --no-tests"
   },
   "peerDependencies": {
     "@stylistic/eslint-plugin": ">= ~3",
