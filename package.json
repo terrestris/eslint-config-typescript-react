@@ -25,9 +25,9 @@
     "release": "np --no-yarn --no-tests"
   },
   "peerDependencies": {
-    "@stylistic/eslint-plugin": ">= ~3",
-    "@typescript-eslint/eslint-plugin": "^8.21.0",
-    "@typescript-eslint/parser": "^8.21.0",
+    "@stylistic/eslint-plugin": ">= ~4",
+    "@typescript-eslint/eslint-plugin": "^8.25.0",
+    "@typescript-eslint/parser": "^8.25.0",
     "eslint": ">= 9",
     "eslint-plugin-react": ">= 7",
     "eslint-plugin-react-hooks": "^5.1.0",
